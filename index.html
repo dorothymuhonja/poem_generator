@@ -3,27 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/style.css">
     <title>AI Poem Generator</title>
 </head>
 <body>
-    <header>
-        <h1>AI Poem Generator</h1>
-    </header>
+    <div class="container">
+        <header>
+            <h1>AI Poem Generator</h1>
+        </header>
+    
+        <main>
+            <form>
+                <input type="text" placeholder="Enter the topic of the poem" class="instructions" required/>
+                <input type="submit" class="submit-button"/>
+                
+            </form>
 
-    <main>
-        <form>
-            <input type="text" placeholder="Enter the topic of the poem" autofocus required/>
-            <input type="submit"/>
-            <div>
+            <div class="poem">
                 The poem will go here
                 <br/>
+                Here will go the poem
             </div>
-        </form>
-    </main>
+        </main>
+        
     
+        <footer>This project was coded by <a href="https://github.com/dorothymuhonja" target="_blank">Dorothy Muhonja</a> and is open-sourced on <a href="https://github.com/dorothymuhonja/poem_generator" target="_blank">Github</a> and hosted on <a target="_blank" href="https://shecodesaipoemgenerator.netlify.app/">Netlify</a></footer>
 
-    <footer>This project was coded by <a href="https://github.com/dorothymuhonja" target="_blank">Dorothy Muhonja</a> and is open-sourced on <a href="https://github.com/dorothymuhonja/poem_generator" target="_blank">Github</a> and hosted on <a target="_blank" href="https://shecodesaipoemgenerator.netlify.app/">Netlify</a></footer>
+    </div>
+    
 
     <script src="src/index.js"></script>
 </body>
