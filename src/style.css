@@ -1,11 +1,11 @@
 body {
-    background-color: rgb(241, 224, 243);
+    background-color: rgb(17, 16, 17);
     font-family: "Caveat", cursive;
     ;
 }
 
 a {
-    color: rgb(205, 111, 218);
+    color: rgb(196, 173, 45);
     text-decoration: none;
 }
 
@@ -23,14 +23,14 @@ h1 {
     font-weight: 800;
     font-size: 36px;
     line-height: 1.5;
-    color: rgb(49, 14, 78);
+    color: rgb(157, 125, 184);
     text-align: center;
 }
 
 form {
     padding: 30px;
-    background-color: white;
-    box-shadow: 0px 20px 60px rgba(144, 147, 148, 0.5);
+    background-color: rgb(55, 37, 58);
+    box-shadow: 0px 20px 60px rgba(70, 44, 70, 0.5);
     border-radius: 10px;
     display: flex;
 }
@@ -42,11 +42,13 @@ form {
   font-size: 16px;
   border-radius: 50px;
   line-height: 20px; 
+  background-color: rgb(37, 32, 32);
+
 }
 
 .submit-button {
     margin-left: 10px;
-    background-color: rgb(205, 111, 218);
+    background-color: rgb(196, 173, 45);
     color: white;
     width: 150px;
     font-size: 16px;
@@ -57,17 +59,19 @@ form {
 
 .poem {
     font-size: 18px;
-    background-color: white;
+    background-color: rgb(55, 37, 58);
     padding: 20px;
     margin-top: 20px;
     line-height: 2;
-    border-left: 3px solid rgb(205, 111, 218);
-    box-shadow: 0px 20px 60px rgba(144, 147, 148, 0.5);
+    border-left: 3px solid rgb(196, 173, 45);
+    box-shadow: 0px 20px 60px rgba(70, 44, 70, 0.5);
     border-radius: 5px;
+    color: azure;
 }
 
 footer {
     text-align: center;
     font-size: 16px;
     margin-top: 30px;
+    color: azure;
 }
