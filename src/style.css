@@ -76,3 +76,7 @@ footer {
     margin-top: 30px;
     color: azure;
 }
+
+.poem strong {
+    color: rgb(196, 173, 45); 
+}

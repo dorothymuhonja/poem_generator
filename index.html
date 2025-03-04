@@ -7,6 +7,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
     <link rel="stylesheet" href="src/style.css">
     <title>AI Poem Generator</title>
 </head>
@@ -18,7 +20,7 @@
     
         <main>
             <form id="poem-generator-form">
-                <input type="text" placeholder="Enter the topic of the poem" class="instructions" required/>
+                <input type="text" placeholder="Enter the topic of the poem" class="instructions" id="user-instructions" required/>
                 <input type="submit" class="submit-button"/>
                 
             </form>
